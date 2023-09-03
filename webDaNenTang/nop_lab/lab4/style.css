@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.content::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.content{
+    height: 100vh;
+    background: url(./trangWeb1.jpeg) center no-repeat;
+    background-size: 100% 80% ;
+    /* background-size: cover; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.baner{
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px white;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.btn{
+    border-radius: 25px;
+    padding: 15px 40px;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    font-size: inherit;
+    background: transparent;
+    transition: 0.4s;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}

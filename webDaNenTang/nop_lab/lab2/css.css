@@ -1,0 +1,80 @@
+*{
+    
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: rgb(159, 240, 240);
+}
+.box-login{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box-header{
+    background-color: blue;
+    height: 66px;
+    padding: 0px 22px;
+    color: white;
+}
+h3{
+    line-height: 66px;
+}
+.box-header > a{
+    color: rgb(180, 175, 175);
+    position: absolute;
+    top: 22px;
+    right: 22px;
+}
+.box-content{
+    background-color: white;
+    padding: 22px;
+}
+.row{
+    margin-bottom: 23px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.input-group{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.input-group > input{
+    width: 330px;
+    height: 50px;
+    background-color: #fae1fa;
+    font-size: 14px;
+    color: #b7b7b7;
+    padding-left: 20px;
+    border: none;
+}
+.input-group > i{
+    position: absolute;
+    font-size: 22px;
+    top: 16px;
+    right: 16px;
+    color: #b7b7b7;
+}
+a.sign-in{
+    background-color: blue;
+    border-radius: 5px;
+    color: aliceblue;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 32px;
+    text-decoration: none;
+}
+a.last{
+    text-align: center;
+    text-decoration: none;
+    color: rgba(179, 182, 184, 0.993);
+}
+

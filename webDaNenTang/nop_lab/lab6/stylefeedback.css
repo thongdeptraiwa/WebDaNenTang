@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #fff;
+    color: slategray;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: slategray;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    max-width: 1400px;
+    margin: 20px auto;
+}
+.post{
+    margin-left: -20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-item{
+    width: calc(100%/3 - 20px);
+    margin-left: 20px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.289);
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s linear;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.post-item:hover{
+    transform: scale(1.02);
+}
+.post-image{
+    display: block;
+    height: 200px;
+    overflow: hidden;
+}
+.post-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.4s linear;
+}
+.post-image:hover img{
+    transform: scale(1.09);
+}
+.post-content{
+    padding: 15px;
+    text-align: justify;
+    flex-grow: 1; 
+    display: flex; /*chiến full nd chứa item */
+    flex-direction: column;
+}
+.post-title,
+.post-description{
+    margin-bottom: 15px;
+}
+.post-author{
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+.author-img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.3);
+}
+.infor-author{
+    margin-left: 15px;
+}
+.infor-author p:first-child{
+    font-weight: bold;
+}
+.post-time{
+    margin-left: auto;
+}
+@media screen and (max-width: 990px){
+    .post-item{
+        width: calc(100%/2 - 20px);
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 576px){
+    .post-item{
+        width: calc(100% - 20px);
+        flex-wrap: wrap;
+    }
+}

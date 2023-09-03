@@ -1,0 +1,23 @@
+.grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 200px 200px;
+        gap: 5px;
+}
+    
+.grid-item1{
+    background-color: #FF9800;
+    grid-row:1/3;
+    grid-column: 1/2;
+}
+.grid-item2{
+    background-color: #4CAF50;
+    grid-column: 2/4;
+
+}
+.grid-item3{
+    background-color:#bab524;
+}
+.grid-item4{
+    background-color:  #616161;
+}

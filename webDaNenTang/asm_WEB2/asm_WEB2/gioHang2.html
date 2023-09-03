@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping Cart</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./gioHang2.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<body>
+	<div class="container">
+        <header class="menu">
+            <!-- menu cũ -->
+            <nav>
+                <a class="top-zone" href="./index.html">
+                    <img src="../image/topzone.jpeg" width="200px" height="60px" alt="">
+                </a>
+                
+                <!-- icon menu -->
+                <div class="giohang">
+                    <li>
+                        <a href="giohang2.html">
+                            <img src="../image/giohang.png" width="40px" height="40px" alt="">
+                        </a>
+                    </li>
+                </div>
+                <div class="giohang2">
+                    <li>
+                        <a href="giohang2.html">
+                            <img src="../image/giohang.png" width="40px" height="40px" alt="">
+                        </a>
+                    </li>
+                </div>
+                <input type="checkbox" id="toggle-menu">
+                <label for="toggle-menu" class="btn-toggle-menu">
+                    <i class="far fa-bars" style="color: #fcfcfc;"></i>
+                </label>
+                <ul class="flex-menu">
+                    <li>
+                        <a href="./trangip.html">iPhone</a>
+                    </li>
+                    <li>
+                        <a href="./trangmac.html">Mac</a>
+                    </li>
+                    <li>
+                        <a href="./trangwatch.html">Watch</a>
+                    </li>
+                    <li>
+                        <a href="./trangipods.html">AirPods</a>
+                    </li>
+                    <li class="dangnhap">
+                        <a href="./dangnhap.html">Đăng Nhập</a>
+                    </li>
+                </ul>
+            </nav>
+		</header>
+
+
+
+   <main class="page">
+	<section class="shopping-cart dark">
+		<div class="container">
+		   <!-- <div class="block-heading">
+			 <h2>Shopping Cart</h2>
+			 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+		   </div> -->
+		   <div class="content">
+				<div class="row">
+					<div class="col-md-12 col-lg-8">
+						<div class="items">
+							<div class="product">
+								<div class="row">
+									<div class="col-md-3">
+										<img class="img-fluid mx-auto d-block image" src="../image/ip12.png">
+									</div>
+									<div class="col-md-8">
+										<div class="info">
+											<div class="row">
+												<div class="col-md-5 product-name">
+													<div class="product-name">
+														<a href="#">iPhone 12</a>
+														<div class="product-info">
+															<div>Display: <span class="value">6.1 inch</span></div>
+															<div>RAM: <span class="value">4GB</span></div>
+															<div>Memory: <span class="value">64GB</span></div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4 quantity">
+													<label for="quantity">Số lượng:</label>
+													<input id="quantity" type="number" value ="1" class="form-control quantity-input">
+												</div>
+												<div class="col-md-3 price">
+													<span>15.490.000₫</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<div class="row">
+									<div class="col-md-3">
+										<img class="img-fluid mx-auto d-block image" src="../image/ip14pro.png">
+									</div>
+									<div class="col-md-8">
+										<div class="info">
+											<div class="row">
+												<div class="col-md-5 product-name">
+													<div class="product-name">
+														<a href="#">iPhone 14 Pro</a>
+														<div class="product-info">
+															<div>Display: <span class="value">6.1 inch</span></div>
+															<div>RAM: <span class="value">6GB</span></div>
+															<div>Memory: <span class="value">128GB</span></div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4 quantity">
+													<label for="quantity">Số lượng:</label>
+													<input id="quantity" type="number" value ="1" class="form-control quantity-input">
+												</div>
+												<div class="col-md-3 price">
+													<span>24.590.000₫</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<div class="row">
+									<div class="col-md-3">
+										<img class="img-fluid mx-auto d-block image" src="../image/ip11.webp">
+									</div>
+									<div class="col-md-8">
+										<div class="info">
+											<div class="row">
+												<div class="col-md-5 product-name">
+													<div class="product-name">
+														<a href="./chiettiet1.html">iPhone 11</a>
+														<div class="product-info">
+															<div>Display: <span class="value">6.1 inch</span></div>
+															<div>RAM: <span class="value">4GB</span></div>
+															<div>Memory: <span class="value">64GB</span></div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4 quantity">
+													<label for="quantity">Số lượng:</label>
+													<input id="quantity" type="number" value ="1" class="form-control quantity-input">
+												</div>
+												<div class="col-md-3 price">
+													<span>10.690.000₫</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-4">
+						<div class="summary">
+							<h3>Hóa Đơn</h3>
+							<div class="summary-item"><span class="text">Tổng</span><span class="price">50.770.000₫</span></div>
+							<div class="summary-item"><span class="text">Giảm Giá</span><span class="price">$0</span></div>
+							<div class="summary-item"><span class="text">Tiền Vận Chuyển</span><span class="price">$0</span></div>
+							<div class="summary-item"><span class="text">Tổng Cộng</span><span class="price">50.770.000₫</span></div>
+							<button type="button" class="btn btn-primary btn-lg btn-block" >Thanh Toán</button>
+						</div>
+					</div>
+				</div> 
+			</div>
+		</div>
+   </section>
+</main>
+
+
+<section class="section-cta">
+    <div class="containerMua">
+      <div class="cta">
+        <div class="cta-text-box">
+          <h2 class="heading-secondary">Thông Tin Khách Hàng</h2>
+          <p class="cta-text">
+            Quý khách vui lòng để lại thông tin để cửa hàng có thể thông báo những chương trình khuyến mãi sớm nhất. 
+            Quý khách biết đến cửa hàng của chúng tui qua đâu.
+          </p>
+  
+          <form class="cta-form" action="#">
+            <div>
+              <label for="full-name">Họ và tên</label>
+              <input id="full-name" type="text" placeholder="Nguyễn Văn A" required="">
+            </div>
+  
+            <div>
+              <label for="email">Địa chỉ email</label>
+              <input id="email" type="email" placeholder="vana@gmail.com" required="">
+            </div>
+  
+            <div>
+              <label for="select-where">Bạn biết tới cửa hàng qua  </label>
+              <select id="select-where" required="">
+                <option value="">Vui lòng cho:</option>
+                <option value="friends">Gia đình hoặc bạn bè</option>
+                <option value="youtube">YouTube</option>
+                <option value="ad">Facebook</option>
+                <option value="others">Khác</option>
+              </select>
+            </div>
+  
+            <button class="btn btn--form">Gửi</button>
+  
+            <!-- <input type="checkbox" />
+            <input type="number" /> -->
+          </form>
+        </div>
+        <div class="cta-img-box" role="img" aria-label="Woman enjoying food"></div>
+      </div>
+    </div>
+  </section>
+
+
+		<footer>
+            <div class="img_icon_footer">
+                <img src="../image/topzone.jpeg" alt="">
+            </div>
+            <br/>
+
+            <div class="text_footer">
+
+                <div class="colum_footer">
+                    <div class="colum">
+                        <div class="row">
+                            <h3>Tổng đài</h3>
+                        </div>                       
+                        <div class="row">
+                            <b class="ChuTrang">Mua hàng:</b>   <b class="chuXanh">1900.9696.42</b> <b class="chuXam">(7:30 - 22:00)</b>
+                        </div>
+                        <div class="row">
+                            <b class="ChuTrang">CSKH:</b><b class="chuXanh">1900.9696.43</b><b class="chuXam">(8:00 - 21:30)</b>
+                        </div>
+                        <div class="row">
+                            <p class="onl">Kết nối với chúng tôi</p>
+                        </div>
+                        <div class="row">
+                            <img src="../image/iconFB.png" alt="">
+                            <img src="../image/iconZalo.png" alt="">
+                            <img src="../image/iconYTB.png" alt="">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="colum_footer">
+                    <div class="row">
+                        <h3>Hệ thống cửa hàng</h3>
+                    </div>
+                    <div class="row">
+                        <b class="chuXam">Xem 100 cửa hàng</b>
+                    </div>
+                    <div class="row">
+                        <b class="chuXam">Nội quy cửa hàng</b>
+                    </div>
+                    <div class="row">
+                        <b class="chuXam">Chất lượng phục vụ</b>
+                    </div>
+                    <div class="row">
+                        <b class="chuXam">Chính sách bảo hành & đổi trả</b>
+                    </div>
+                </div>
+
+                <div class="colum_footer">
+                    <div class="row">
+                        <h3>Hỗ trợ khách hàng</h3>
+                    </div>
+                    <div class="row">
+                        <b class="chuXam">Điều kiện giao dịch chung</b>
+                    </div>
+                    <div class="row">
+                        <b class="chuXam">Hướng dẫn mua hàng online</b>
+                    </div>
+                    <div class="row">
+                        <b class="chuXam">Chính sách giao hàng</b>
+                    </div>
+                    <div class="row">
+                        <b class="chuXam">Hướng dẫn thanh toán</b>
+                    </div>
+                </div>
+
+                <div class="colum_footer">
+                    <div class="row">
+                        <h3>Về thương hiệu TopZone</h3>
+                    </div>
+                    <div class="row">
+                        <b class="chuXanh">Tích điểm Quà tặng VIP</b>
+                    </div>
+                    <div class="row">
+                        <b class="chuXam">Giới thiệu TopZone</b>
+                    </div>
+                    <div class="row">
+                        <b class="chuXam">Bán hàng doanh nghiệp</b>
+                    </div>
+                    <div class="row">
+                        <b class="chuXam">Chính sách xử lý dữ liệu cá nhân</b>
+                    </div>
+                    <div class="row">
+                        <b class="chuXam">Xem bản mobile</b>
+                    </div>
+                </div>
+
+                <div class="colum_footer">
+                    <div class="row">
+                        <h3>Trung tâm bảo hành TopCare</h3>
+                    </div>
+                    <div class="row">
+                        <b class="chuXam">Giới thiệu TopCare</b>
+                    </div>
+                </div>
+
+            </div>
+            
+        </footer>
+	</div>
+
+
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

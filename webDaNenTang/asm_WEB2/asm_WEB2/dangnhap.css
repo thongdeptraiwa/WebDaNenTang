@@ -1,0 +1,55 @@
+body{
+    background: url(../image/nenlogin2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.dangnhap{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    
+}
+.khung{
+    text-align: center;
+    color: rgb(20, 20, 20);
+    max-width: 400px;
+    height: 300px;
+    margin: 0px auto;
+    margin-top: 150px;
+}
+.form-control {
+    position: relative;
+}
+ion-icon{
+    position: absolute;
+    left: 569px;
+    top: 233px;
+}
+.icon2 {
+    position: absolute;
+    top: 288px;
+}
+input{
+    padding: 10px 100px;
+    padding-left: 45px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+
+}
+label{
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: 10px;
+    float: left;
+    color: aliceblue;
+}
+button{
+    background-color: aqua;
+    width: calc(100% - 55px);
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px 100px;
+    color: rgb(114, 116, 117);
+}

@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+.chiTietTong{
+    /* width: 100%;
+    height: 800px; */
+    margin-left: -20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chiettiet{
+    width: 100%;
+    height: 100%;
+    width: calc(100%/2 - 20px);
+    margin-left: 20px;
+    height: 100%;
+    /* float: left; */
+    color: white;
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+.dungLuong{
+    width: 100%;
+    height: 100%;
+}
+.than button{
+    /* width: 100%;
+    height: 100%; */
+    flex-direction: column;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.349);
+    color: white;
+    border-radius: 7px;
+    padding: 10px; 
+    margin-right: 10px;
+    align-items: center;
+}
+.than button:hover{
+    background-color: rgb(0, 0, 0);
+}
+.km{
+    
+    width: 90%;
+    background-color: black;
+    padding-top:    0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-left: 650px;*/
+    margin-right: 40px;
+    margin-top: 20px; 
+    border-radius: 15px;
+}
+.km > p{
+    font-size: 16px;
+}
+.km>.pKM{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.km>p>b{
+    color: rgba(57, 57, 238, 0.884);
+}
+.muangay{
+    align-items: center;
+    color: white;
+    background-color: blue;
+    border-radius: 25px;
+    margin-top: 10px;
+    width: 90%;
+    height: 100%;
+}
+.muangay>.pMuangay{
+    font-size: 20px;
+}
+
+
+.post > img{
+    max-width: 100%;
+    display: block;
+}
+.post>a{
+    text-decoration: none;
+    color: slategray;
+}
+.post>h2{
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    max-width: 1400px;
+    margin: 20px auto;
+}
+.post{
+    margin-left: -20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-item{
+    width: calc(100%/3 - 20px);
+    margin-left: 20px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.289);
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s linear;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.post-item:hover{
+    transform: scale(1.02);
+}
+.post-image{
+    display: block;
+    height: 200px;
+    overflow: hidden;
+}
+.post-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.4s linear;
+}
+.post-image:hover img{
+    transform: scale(1.09);
+}
+.post-content{
+    padding: 15px;
+    text-align: justify;
+    flex-grow: 1; 
+    display: flex; /*chiến full nd chứa item */
+    flex-direction: column;
+}
+.post-title,
+.post-description{
+    margin-bottom: 15px;
+}
+.post-author{
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+.author-img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.3);
+}
+.infor-author{
+    margin-left: 15px;
+}
+.infor-author p:first-child{
+    font-weight: bold;
+}
+.post-time{
+    margin-left: auto;
+}
+@media screen and (max-width: 990px){
+    .post-item{
+        width: calc(100%/2 - 20px);
+        flex-wrap: wrap;
+    }
+    .chiettiet{
+        width: calc(100%/2 - 20px);
+        flex-wrap: wrap;
+    }
+    .muangay{
+        width: calc(100% - 10px);
+    }
+}
+@media screen and (max-width: 576px){
+    .post-item{
+        width: calc(100% - 20px);
+        flex-wrap: wrap;
+    }
+    .chiettiet{
+        width: calc(100% - 20px);
+        flex-wrap: wrap;
+    }
+    .muangay{
+        width: calc(100% - 10px);
+    }
+}

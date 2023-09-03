@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato' ,sans-serif;
+    background-color: grey;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0px;
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+.container{
+    width: 800px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.item{
+    flex: 1;
+    transform: 0.4s linear;
+}
+.item:hover{
+    flex-basis: 75%;
+}
